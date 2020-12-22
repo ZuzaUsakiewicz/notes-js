@@ -1,0 +1,21 @@
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Andika New Basic", sans-serif;
+  font-size: 20px;
+  color: rgb(233, 218, 228);
+}
+
+.main {
+  background-image: url("./image/pexels-hristo-fidanov-1252890.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
