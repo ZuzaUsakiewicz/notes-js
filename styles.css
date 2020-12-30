@@ -21,7 +21,13 @@ button {
   text-transform: uppercase;
   cursor: pointer;
 }
-
+.note-text {
+  background-color: rgb(240, 205, 211);
+  font-family: inherit;
+}
+.note-text.edit {
+  background-color: rgb(252, 252, 253);
+}
 .main {
   display: flex;
   justify-content: space-evenly;
