@@ -20,6 +20,8 @@ button {
   font-family: "Andika New Basic", sans-serif;
   text-transform: uppercase;
   cursor: pointer;
+  font-weight: 700;
+  border-radius: 8px;
 }
 .note-text {
   background-color: rgb(240, 205, 211);
@@ -53,17 +55,34 @@ button {
   right: 20px;
   padding: 20px;
   border: none;
-  background: rgb(23, 155, 63);
+  background: rgb(51, 189, 92);
+  transition: background 0.3s ease-in;
+}
+.create:hover {
+  background: rgb(43, 172, 81);
+}
+.panel {
+  padding: 10px;
 }
 .btn {
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: none;
   font-weight: 700;
-  margin: 0 5px 5px 0;
+  margin: 5px;
 }
 .btn.delete {
-  background: rgb(216, 48, 48);
+  background: rgb(223, 37, 37);
+  transition: background 0.3s ease-in;
 }
+
+.btn.delete:hover {
+  background: rgb(173, 17, 17);
+}
+
 .btn.edit {
   background: rgb(70, 44, 219);
+  transition: background 0.3s ease-in;
+}
+.btn.edit:hover {
+  background: rgb(50, 25, 189);
 }

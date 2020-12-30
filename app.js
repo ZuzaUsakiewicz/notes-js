@@ -39,7 +39,7 @@ function createNote() {
     } else {
       editButton.innerHTML = "edit";
       textArea.blur();
-      editButton.style.backgroundColor = "blue";
+      editButton.style.backgroundColor = "";
     }
   });
 }
